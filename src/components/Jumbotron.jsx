@@ -1,6 +1,6 @@
 const Jumbotron = () => {
     return (
-        <div className="jumbotron" style={{ height: "100vh", marginTop: "25vh" }}>
+        <div className="jumbotron" style={{ height: "75vh", marginTop: "25vh" }}>
             <h1 className="display-6">FULLSTACK ENGINEER</h1>
             <h1 className="display-6">READY TO MAKE AN IMPACT</h1>
             <p className="lead">Specializing in Full-Stack development utilizing technologies like: MongoDB, Express.js, React.js, Node.js</p>

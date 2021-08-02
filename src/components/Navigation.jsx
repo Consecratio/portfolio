@@ -14,9 +14,10 @@ const Navigation = () => {
                     navbarScroll
                     >
                         <Nav.Link href="#action1">HOME</Nav.Link>
-                        <Nav.Link href="#action2">PROJECTS</Nav.Link>
-                        <Nav.Link href="#action3">ABOUT ME</Nav.Link>
-                        <Nav.Link href="#action4">CONTACT</Nav.Link>
+                        <Nav.Link href="#action2">TECHNOLOGIES</Nav.Link>
+                        <Nav.Link href="#action3">PROJECTS</Nav.Link>
+                        <Nav.Link href="#action4">ABOUT ME</Nav.Link>
+                        <Nav.Link href="#action5">CONTACT</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

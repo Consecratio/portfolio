@@ -1,11 +1,15 @@
 import Navigation from './components/Navigation'
 import Jumbotron from './components/Jumbotron'
+import Technologies from './components/Technologies'
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Navigation />
-      <Jumbotron />
+      <div className="container">
+        <Jumbotron />
+      </div>
+      <Technologies />
     </div>
   );
 }
