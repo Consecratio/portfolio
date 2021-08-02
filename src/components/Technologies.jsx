@@ -1,24 +1,50 @@
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
+import { SiPostgresql, SiMongodb, SiReact, SiNodeDotJs, SiPython, SiJavascript, SiGit } from 'react-icons/si'
+import { DiNodejs } from 'react-icons/di'
 
 const Technologies = () => {
     return (
         <div style={{ backgroundColor: "#16161A" }}>
             <div className="container">
-            <Row xs={1} md={4} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
-                    <Col>
-                    <Card>
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                <Row className="text-center" style={{ color: "#94A1B2" }}>
+                    <h3 style={{ margin: "50px 0" }}>TECHNOLOGIES</h3>
+                </Row>
+                <Row xs={2} md={4} className="g-4" style={{ color: "#94A1B2" }}>
+                    <Col className="text-center">
+                        <SiPostgresql style={{ height: "10vh", width: "10vh", color: "rgb(54, 104, 144)" }} />
+                        <h4 className="mt-2">PostgreSQL</h4>
                     </Col>
-                ))}
-            </Row>
+                    <Col className="text-center">
+                        <SiMongodb style={{ height: "10vh", width: "10vh", color: "green" }} />
+                        <h4 className="mt-2">MongoDB</h4>
+                    </Col>
+                    <Col className="text-center">
+                        <SiReact style={{ height: "10vh", width: "10vh", color: "rgb(103, 219, 249)" }} />
+                        <h4 className="mt-2">React.js</h4>
+                    </Col>
+                    <Col className="text-center" style={{ marginBottom: "50px" }}>
+                        <SiNodeDotJs style={{ height: "10vh", width: "10vh", color: "green" }} />
+                        <h4 className="mt-2">Express.js</h4>
+                    </Col>
+                </Row>
+                <Row xs={2} md={4} className="g-4" style={{ color: "#94A1B2" }}>
+                    <Col className="text-center">
+                        <DiNodejs style={{ height: "10vh", width: "10vh", color: "green" }} />
+                        <h4 className="mt-2">Node.js</h4>
+                    </Col>
+                    <Col className="text-center">
+                        <SiPython style={{ height: "10vh", width: "10vh", color: "rgb(54, 104, 144)" }} />
+                        <h4 className="mt-2">MongoDB</h4>
+                    </Col>
+                    <Col className="text-center">
+                        <SiJavascript style={{ height: "10vh", width: "10vh", color: "yellow" }} />
+                        <h4 className="mt-2">React.js</h4>
+                    </Col>
+                    <Col className="text-center" style={{ marginBottom: "50px" }}>
+                        <SiGit style={{ height: "10vh", width: "10vh", color: "rgb(238, 81, 59)" }} />
+                        <h4 className="mt-2">Node.js</h4>
+                    </Col>
+                </Row>
             </div>
         </div>
     )

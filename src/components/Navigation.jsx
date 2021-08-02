@@ -7,7 +7,7 @@ const Navigation = () => {
                 <Navbar.Brand href="#" style={{ fontWeight: "bold" }}>Jorge.<span style={{ color: "#7F5AF0" }}>Casique</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
-                    <Nav className="col-3 me-5"></Nav>
+                    <Nav className="col-lg-2 me-5"></Nav>
                     <Nav
                     className="mr-auto my-2 my-lg-0"
                     style={{ maxHeight: '100px' }}
