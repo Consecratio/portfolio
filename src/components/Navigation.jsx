@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap"
 const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="md" fixed="top">
-            <Container>
+            <Container className="offset-md-1">
                 <Navbar.Brand href="#" style={{ fontWeight: "bold" }}>Jorge.<span style={{ color: "#7F5AF0" }}>Casique</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
