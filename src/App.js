@@ -7,11 +7,14 @@ function App() {
   return (
     <div>
       <Navigation />
-      <div className="container offset-md-1">
+
+      <div className="container">
         <Jumbotron />
       </div>
+
       <Technologies />
-      <div className="container offset-md-1">
+
+      <div className="container">
         <Projects />
       </div>
     </div>
