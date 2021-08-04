@@ -11,7 +11,7 @@ const Navigation = () => {
                     <Nav
                     className="mr-auto my-2 my-lg-0"
                     >
-                        <Nav.Link href="#home">HOME</Nav.Link>
+                        <Nav.Link href="#top">HOME</Nav.Link>
                         <Nav.Link href="#technologies">TECHNOLOGIES</Nav.Link>
                         <Nav.Link href="#projects">PROJECTS</Nav.Link>
                         <Nav.Link href="#action4">ABOUT ME</Nav.Link>
