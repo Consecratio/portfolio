@@ -4,7 +4,7 @@ import { DiNodejs } from 'react-icons/di'
 
 const Technologies = () => {
     return (
-        <div style={{ backgroundColor: "#16161A" }}>
+        <div id="technologies" style={{ backgroundColor: "#16161A" }}>
             <div className="container">
                 <Row className="text-center" style={{ color: "#94A1B2" }}>
                     <h3 style={{ margin: "50px 0" }}>TECHNOLOGIES</h3>
