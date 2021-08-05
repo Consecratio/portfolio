@@ -11,7 +11,7 @@ const Projects = () => {
             </Row>
             <Row lg={2} className="align-items-center" >
                 <Col>
-                    <img src={viberant} alt="Viberant" style={{ height: "50vh", margin: "0 auto", display: "block" }} />
+                    <img src={viberant} alt="Viberant" style={{ height: "100%", maxWidth: "100%", margin: "0 auto", display: "block" }} />
                 </Col>
                 <Col className="mx-auto text-center">
                     <h3>Viberant</h3>
@@ -20,7 +20,7 @@ const Projects = () => {
             </Row>
             <Row lg={2} className="align-items-center flex-row-reverse" >
                 <Col>
-                    <img src={spellbook} alt="Viberant" style={{ height: "50vh", margin: "0 auto", display: "block" }} />
+                    <img src={spellbook} alt="Spellbook" style={{ maxHeight: "50vh", maxWidth: "100%", margin: "0 auto", display: "block" }} />
                 </Col>
                 <Col className="mx-auto text-center">
                     <h3>SpellBook</h3>
@@ -29,7 +29,7 @@ const Projects = () => {
             </Row>
             <Row lg={2} className="align-items-center" >
                 <Col>
-                    <img src={chatApp} alt="Viberant" style={{ height: "50vh", margin: "0 auto", display: "block" }} />
+                    <img src={chatApp} alt="Chat App" style={{ height: "50vh", margin: "0 auto", display: "block" }} />
                 </Col>
                 <Col className="mx-auto text-center">
                     <h3>Chat App</h3>
