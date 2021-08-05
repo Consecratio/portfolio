@@ -2,9 +2,39 @@
     display: none;
 }
 
-@keyframes growIn {
+.slide {
+    opacity: 1;
+    animation: slide-in 2s ease-in;
+}
+
+.my-photo {
+    opacity: 0;
+    animation: fade-in 2s ease-in 2s forwards;
+}
+
+@keyframes grow-in {
     0% {width: 0;}
+    80% {width: 22vw;}
     100% {width: 20vw;}
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    80% {
+        opacity: 1;
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @media screen and (min-width: 992px) {
@@ -17,6 +47,6 @@
         right: 0;
         top: 0;
         z-index: -1;
-        animation: growIn 2s linear;
+        animation: grow-in 2s ease-in;
     }
 }
