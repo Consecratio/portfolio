@@ -3,6 +3,8 @@ import Jumbotron from './components/Jumbotron'
 import Technologies from './components/Technologies'
 import Projects from './components/Projects'
 import AboutMe from './components/AboutMe'
+import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
       </div>
 
       <AboutMe />
+
+      <div className="container">
+        <ContactMe />
+      </div>
+
+      <Footer />
 
     </div>
   );

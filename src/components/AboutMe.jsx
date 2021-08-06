@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className="container">
 
                 <Row className="text-center" style={{ color: "#94A1B2" }}>
-                    <h3 style={{ margin: "50px 0" }}>About Me</h3>
+                    <h3 style={{ margin: "50px 0" }}>ABOUT ME</h3>
                 </Row>
 
                 <Row>
