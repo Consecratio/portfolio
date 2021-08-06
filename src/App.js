@@ -2,6 +2,7 @@ import Navigation from './components/Navigation'
 import Jumbotron from './components/Jumbotron'
 import Technologies from './components/Technologies'
 import Projects from './components/Projects'
+import AboutMe from './components/AboutMe'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <div className="container">
         <Projects />
       </div>
+
+      <AboutMe />
+
     </div>
   );
 }
