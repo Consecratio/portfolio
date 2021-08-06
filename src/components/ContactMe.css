@@ -1,0 +1,19 @@
+.contact-name {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.contact-title {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #7F5AF0;
+}
+
+.contact-left {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.contact-body {
+    margin: 5px 0;
+}

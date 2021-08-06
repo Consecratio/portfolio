@@ -1,5 +1,6 @@
 import { Row, Col } from 'react-bootstrap'
 import contact from '../img/contact_me.jpg'
+import './ContactMe.css'
 
 const ContactMe = () => {
     return (
@@ -15,26 +16,26 @@ const ContactMe = () => {
                 </Col>
                 <Col>
                     <Row>
-                        <Col class="contact-name">Jorge Casique</Col>
+                        <Col className="contact-name">Jorge Casique</Col>
                     </Row>
 
                     <Row>
-                        <Col class="contact-title">Software Developer</Col>
+                        <Col className="contact-title">Software Developer</Col>
                     </Row>
                     
                     <Row>
-                        <Col class="contact-left">LOCATION</Col>
-                        <Col class="contact-body">LOS ANGELES, CA</Col>
+                        <Col lg={3} className="contact-left">LOCATION</Col>
+                        <Col className="contact-body">LOS ANGELES, CA</Col>
                     </Row>
                     
                     <Row>
-                        <Col class="contact-left">E-MAIL</Col>
-                        <Col class="contact-body">JCASIQUE@gmail.com</Col>
+                        <Col lg={3} className="contact-left">E-MAIL</Col>
+                        <Col className="contact-body">JCasique@gmail.com</Col>
                     </Row>
                     
                     <Row>
-                        <Col class="contact-left">PHONE</Col>
-                        <Col class="contact-body">(626)775-5537</Col>
+                        <Col lg={3} className="contact-left">PHONE</Col>
+                        <Col className="contact-body">(626)775-5537</Col>
                     </Row>
                     
                 </Col>
