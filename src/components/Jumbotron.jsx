@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap"
 import myPhoto from '../img/me.jpeg'
 import './Jumbotron.css'
+import { BsArrowDown } from 'react-icons/bs'
 
 const Jumbotron = () => {
     return (
@@ -19,6 +20,7 @@ const Jumbotron = () => {
                 </Col>
                 <div id="jumbo-div" ></div>
             </Row>
+            <BsArrowDown id="down-arrow" />
         </div>
     )
 }
