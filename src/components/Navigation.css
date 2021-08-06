@@ -1,0 +1,14 @@
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    border-top-style: solid;
+    overflow: hidden;
+    color: rgb(127, 90, 240);
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(127, 90, 240);
+}
