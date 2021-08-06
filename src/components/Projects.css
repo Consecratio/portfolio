@@ -1,0 +1,14 @@
+.project-name {
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.tech-stack {
+    color: rgb(148, 161, 178);
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.project-links {
+    color: rgb(127, 90, 240);
+}
