@@ -12,3 +12,7 @@
 .project-links {
     color: rgb(127, 90, 240);
 }
+
+.projects-row {
+    height: 100vh;
+}

@@ -7,10 +7,12 @@ import './Projects.css'
 const Projects = () => {
     return (
         <div id="projects" className="container">
+
             <Row className="text-center" style={{ color: "#94A1B2" }}>
                 <h3 style={{ margin: "50px 0" }}>PROJECTS</h3>
             </Row>
-            <Row lg={2} className="align-items-center" style={{ height: "100vh" }} >
+
+            <Row lg={2} className="align-items-center projects-row" >
                 <Col>
                     <img src={viberant} alt="Viberant" style={{ height: "100%", maxWidth: "100%", margin: "0 auto", display: "block" }} />
                 </Col>
@@ -22,7 +24,8 @@ const Projects = () => {
                     <a href="https://github.com/Consecratio/mern-auth-client" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
                 </Col>
             </Row>
-            <Row lg={2} className="align-items-center flex-row-reverse" style={{ height: "100vh" }} >
+
+            <Row lg={2} className="align-items-center flex-row-reverse projects-row" >
                 <Col>
                     <img src={spellbook} alt="Spellbook" style={{ maxHeight: "50vh", maxWidth: "100%", margin: "0 auto", display: "block" }} />
                 </Col>
@@ -34,7 +37,8 @@ const Projects = () => {
                     <a href="https://github.com/Consecratio/project-2-spellbook" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
                 </Col>
             </Row>
-            <Row lg={2} className="align-items-center" style={{ height: "100vh" }} >
+
+            <Row lg={2} className="align-items-center projects-row" >
                 <Col>
                     <img src={chatApp} alt="Chat App" style={{ height: "50vh", margin: "0 auto", display: "block" }} />
                 </Col>
@@ -46,6 +50,7 @@ const Projects = () => {
                     <a href="https://github.com/Consecratio/chat-app-client" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
                 </Col>
             </Row>
+
         </div>
     )
 }
