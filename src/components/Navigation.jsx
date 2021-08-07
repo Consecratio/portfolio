@@ -11,6 +11,7 @@ const Navigation = () => {
                     <Nav className="col-lg-2 me-5"></Nav>
                     <Nav
                     className="mr-auto my-2 my-lg-0"
+                    defaultActiveKey="#top"
                     >
                         <Nav.Link href="#top">HOME</Nav.Link>
                         <Nav.Link href="#technologies">TECHNOLOGIES</Nav.Link>
