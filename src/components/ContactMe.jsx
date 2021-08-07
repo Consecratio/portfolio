@@ -4,14 +4,14 @@ import './ContactMe.css'
 
 const ContactMe = () => {
     return (
-        <div className="mb-5">
+        <div id="contact" className="mb-5">
 
             <Row className="text-center" style={{ color: "#94A1B2" }}>
                 <h3 style={{ margin: "50px 0" }}>CONTACT</h3>
             </Row>
 
-            <Row>
-                <Col>
+            <Row className="align-items-center">
+                <Col lg={6}>
                     <img src={contact} alt="Space Jorge" style={{ height: "50vh", borderRadius: "100%" }} />
                 </Col>
                 <Col>
