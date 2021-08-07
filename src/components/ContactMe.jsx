@@ -30,12 +30,12 @@ const ContactMe = () => {
                     
                     <Row>
                         <Col lg={3} className="contact-left">E-MAIL</Col>
-                        <Col className="contact-body">JCasique@gmail.com</Col>
+                        <Col className="contact-body"><a href="mailto:jcasique@gmail.com" target="_blank" rel="noopener noreferrer">JCasique@gmail.com</a></Col>
                     </Row>
                     
                     <Row>
                         <Col lg={3} className="contact-left">PHONE</Col>
-                        <Col className="contact-body">(626)775-5537</Col>
+                        <Col className="contact-body"><a href="tel:+16267755537">(626)775-5537</a></Col>
                     </Row>
                     
                 </Col>
