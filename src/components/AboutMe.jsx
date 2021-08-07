@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-bootstrap'
-import './AboutMe.css'
+import '../css/AboutMe.css'
 
 const AboutMe = () => {
     return (

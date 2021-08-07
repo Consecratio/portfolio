@@ -2,7 +2,7 @@ import { Row, Col } from 'react-bootstrap'
 import viberant from '../img/viberant.png'
 import spellbook from '../img/spellbook.png'
 import chatApp from '../img/chat_app.png'
-import './Projects.css'
+import '../css/Projects.css'
 
 const Projects = () => {
     return (

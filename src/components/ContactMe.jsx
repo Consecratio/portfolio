@@ -1,6 +1,6 @@
 import { Row, Col } from 'react-bootstrap'
 import contact from '../img/contact_me.jpg'
-import './ContactMe.css'
+import '../css/ContactMe.css'
 
 const ContactMe = () => {
     return (

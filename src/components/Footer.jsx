@@ -3,7 +3,7 @@ import { FaLinkedin, FaFilePdf } from 'react-icons/fa'
 import { SiGithub } from 'react-icons/si'
 import { GoMailRead } from 'react-icons/go'
 import Resume from '../misc/Jorge_Casique_Resume.pdf'
-import './Footer.css'
+import '../css/Footer.css'
 
 const Footer = () => {
     return (
