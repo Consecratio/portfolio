@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap"
-import myPhoto from '../img/me.jpeg'
+import myPhoto from '../img/me.jpg'
 import '../css/Jumbotron.css'
 import { BsArrowDown } from 'react-icons/bs'
 
