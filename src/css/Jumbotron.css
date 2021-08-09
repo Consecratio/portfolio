@@ -78,4 +78,11 @@
         z-index: -1;
         animation: grow-in 2s ease-in;
     }
+
+    .my-photo {
+        opacity: 0;
+        animation: fade-in 2s ease-in 2s forwards;
+        max-height: 60vh;
+        max-width: 60vw;
+    }
 }
