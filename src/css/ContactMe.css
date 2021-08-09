@@ -18,7 +18,19 @@
     margin: 5px 0;
 }
 
-img {
+#space-jorge {
     display: block;
     margin: 0 auto;
+    height: 50vw;
+    border-radius: 100%;
+}
+
+
+@media screen and (min-width: 992px) {
+    #space-jorge {
+        display: block;
+        margin: 0 auto;
+        height: 50vh;
+        border-radius: 100%;
+    }
 }

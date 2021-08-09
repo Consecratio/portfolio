@@ -12,7 +12,7 @@ const ContactMe = () => {
 
             <Row className="align-items-center">
                 <Col lg={6}>
-                    <img src={contact} alt="Space Jorge" style={{ height: "50vh", borderRadius: "100%" }} />
+                    <img id="space-jorge" src={contact} alt="Space Jorge" />
                 </Col>
                 <Col>
                     <Row>
