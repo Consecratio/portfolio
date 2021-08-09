@@ -1,10 +1,10 @@
 .contact-name {
-    font-size: 3vw;
+    font-size: 10vw;
     font-weight: bold;
 }
 
 .contact-title {
-    font-size: 2vw;
+    font-size: 5vw;
     font-weight: bold;
     color: #7F5AF0;
 }
@@ -32,5 +32,13 @@
         margin: 0 auto;
         height: 50vh;
         border-radius: 100%;
+    }
+
+    .contact-name {
+        font-size: 3vw;
+    }
+
+    .contact-title {
+        font-size: 2vw;
     }
 }
