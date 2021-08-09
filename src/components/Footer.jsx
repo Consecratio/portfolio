@@ -2,7 +2,6 @@ import { Row, Col } from 'react-bootstrap'
 import { FaLinkedin, FaFilePdf } from 'react-icons/fa'
 import { SiGithub } from 'react-icons/si'
 import { GoMailRead } from 'react-icons/go'
-import Resume from '../misc/Jorge_Casique_Resume.pdf'
 import '../css/Footer.css'
 
 const Footer = () => {
@@ -30,7 +29,7 @@ const Footer = () => {
                         <p>E-Mail</p>
                     </Col>
                     <Col>
-                        <a href={Resume} target="_blank" rel="noopener noreferrer">
+                        <a href="https://s3.us-west-1.amazonaws.com/jorgecasique.com/Jorge_Casique_Resume.pdf" target="_blank" rel="noopener noreferrer">
                             <FaFilePdf style={{ height: "3vh", width: "3vw", margin: "1vh 2vw" }} />
                         </a>
                         <p>PDF</p>
