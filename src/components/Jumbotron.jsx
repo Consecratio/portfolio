@@ -12,8 +12,8 @@ const Jumbotron = () => {
                     <h1 className="display-6" style={{ fontWeight: "900" }} >READY TO MAKE AN IMPACT</h1>
                     <p className="lead" >Specializing in Full-Stack development utilizing technologies like: MongoDB, Express.js, React.js, Node.js</p>
                 </Col>
-                <Col lg={{ span: 3, offset: 2 }} className="mb-5" >
-                    <img src={myPhoto} alt="Jorge Casique" style={{ height: "60vh" }} className="mx-auto d-block my-photo" />
+                <Col xs={12} sm={12} md={12} lg={{ span: 3, offset: 2 }} className="mb-5" >
+                    <img src={myPhoto} alt="Jorge Casique" className="mx-auto d-block my-photo" />
                 </Col>
                 <div id="jumbo-div" ></div>
             </Row>

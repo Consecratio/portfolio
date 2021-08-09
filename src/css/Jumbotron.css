@@ -10,6 +10,8 @@
 .my-photo {
     opacity: 0;
     animation: fade-in 2s ease-in 2s forwards;
+    max-height: 95%;
+    max-width: 95%;
 }
 
 #down-arrow {
