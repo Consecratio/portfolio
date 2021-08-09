@@ -12,9 +12,9 @@ const Projects = () => {
                 <h3 style={{ margin: "50px 0" }}>PROJECTS</h3>
             </Row>
 
-            <Row lg={2} className="align-items-center projects-row" >
+            <Row xs={1} sm={1} md={1} lg={2} className="align-items-center projects-row" >
                 <Col>
-                    <img src={viberant} alt="Viberant" style={{ height: "100%", maxWidth: "100%", margin: "0 auto", display: "block" }} />
+                    <img id="viberant" src={viberant} alt="Viberant" />
                 </Col>
                 <Col className="mx-auto">
                     <h3 className="project-name">Viberant</h3>
@@ -25,9 +25,9 @@ const Projects = () => {
                 </Col>
             </Row>
 
-            <Row lg={2} className="align-items-center flex-row-reverse projects-row" >
+            <Row xs={1} sm={1} md={1} lg={2} className="align-items-center flex-row-reverse projects-row" >
                 <Col>
-                    <img src={spellbook} alt="Spellbook" style={{ maxHeight: "50vh", maxWidth: "100%", margin: "0 auto", display: "block" }} />
+                    <img id="spellbook" src={spellbook} alt="Spellbook" />
                 </Col>
                 <Col className="mx-auto">
                     <h3 className="project-name">SpellBook</h3>
@@ -38,9 +38,9 @@ const Projects = () => {
                 </Col>
             </Row>
 
-            <Row lg={2} className="align-items-center projects-row" >
+            <Row xs={1} sm={1} md={1} lg={2} className="align-items-center projects-row" >
                 <Col>
-                    <img src={chatApp} alt="Chat App" style={{ height: "50vh", margin: "0 auto", display: "block" }} />
+                    <img id="chat-app" src={chatApp} alt="Chat App" />
                 </Col>
                 <Col className="mx-auto">
                     <h3 className="project-name">Chat App</h3>
