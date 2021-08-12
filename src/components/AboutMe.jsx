@@ -18,6 +18,14 @@ const AboutMe = () => {
                     </Col>
                 </Row>
 
+                <Row>
+                    <Col>
+                        <p className="about-me-text text-center mb-5">
+                            In my free time I enjoy hanging out with my friends, playing video games, Dungeons And Dragons, Magic The Gathering. On the weekends it's possible you will find me either at a Sushi restaurant, or Dim Sum restaurant, and then at a friends house getting ready to play Commander or finish our Dragon Heist campaign.
+                        </p>
+                    </Col>
+                </Row>
+
             </div>
         </div>
     )
