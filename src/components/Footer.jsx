@@ -14,25 +14,25 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/jorge-casique/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin style={{ height: "3vh", width: "3vw", margin: "1vh 2vw" }} />
                         </a>
-                        <p>LinkedIn</p>
+                        <p>LINKEDIN</p>
                     </Col>
                     <Col>
                         <a href="https://github.com/Consecratio" target="_blank" rel="noopener noreferrer">
                             <SiGithub style={{ height: "3vh", width: "3vw", margin: "1vh 2vw" }} />
                         </a>
-                        <p>GitHub</p>
+                        <p>GITHUB</p>
                     </Col>
                     <Col>
                         <a href="mailto:jcasique@gmail.com" target="_blank" rel="noopener noreferrer">
                             <GoMailRead style={{ height: "3vh", width: "3vw", margin: "1vh 2vw" }} />
                         </a>
-                        <p>E-Mail</p>
+                        <p>E-MAIL</p>
                     </Col>
                     <Col>
                         <a href="https://s3.us-west-1.amazonaws.com/jorgecasique.com/Jorge_Casique_Resume.pdf" target="_blank" rel="noopener noreferrer">
                             <FaFilePdf style={{ height: "3vh", width: "3vw", margin: "1vh 2vw" }} />
                         </a>
-                        <p>PDF</p>
+                        <p>RESUME</p>
                     </Col>
                 </Row>
 
