@@ -19,6 +19,7 @@ const Projects = () => {
                 <Col className="mx-auto">
                     <h3 className="project-name">Viberant</h3>
                     <p className="tech-stack">MongoDB + Express.js + React.js + Node.js + Mongoose + Axios + REST API + Bootstrap</p>
+                    <p className="project-desc">Viberant is a collaboration project between Designers and Developers to allow users to post events they would like to do in their area, and join events you are interested in.</p>
                     <a href="https://admiring-spence-c2dab0.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-links">Live Site</a>
                     <br />
                     <a href="https://github.com/Consecratio/mern-auth-client" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
@@ -32,6 +33,7 @@ const Projects = () => {
                 <Col className="mx-auto">
                     <h3 className="project-name">SpellBook</h3>
                     <p className="tech-stack">PostgreSQL + Express.js + EJS + Node.js + Sequelize + Axios + REST API + Bootstrap</p>
+                    <p className="project-desc">Spellbook allows players of Dungeons &amp; Dragons 5e to create custom spell books with spells aggregated from the <a href="http://www.dnd5eapi.co/" target="_blank" rel="noopener noreferrer">DND5e API</a>.</p>
                     <a href="https://spellbook-project.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-links">Live Site</a>
                     <br />
                     <a href="https://github.com/Consecratio/project-2-spellbook" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
@@ -45,6 +47,7 @@ const Projects = () => {
                 <Col className="mx-auto">
                     <h3 className="project-name">Chat App</h3>
                     <p className="tech-stack">Express.js + React.js + Node.js + Socket.io + Bootstrap</p>
+                    <p className="project-desc">Chat App allows users to pick a username upon entering, and start messaging with other users also connected in a real-time chat environment</p>
                     <a href="https://practical-visvesvaraya-c80ca0.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-links">Live Site</a>
                     <br />
                     <a href="https://github.com/Consecratio/chat-app-client" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
