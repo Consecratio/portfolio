@@ -1,5 +1,7 @@
 # Jorge Casique - Portfolio Site
 
+Link: [https://jorgecasique.com](https://jorgecasique.com)
+
 ## Tech Used
 
 - React.js
