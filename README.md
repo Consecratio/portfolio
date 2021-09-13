@@ -2,8 +2,11 @@
 
 ## Tech Used
 
-### `React.js`
-### `React-Bootstrap`
+- React.js
+- React-Bootstrap
+- CSS
+- HTML
+- AWS
 
 ## Explanation
 
