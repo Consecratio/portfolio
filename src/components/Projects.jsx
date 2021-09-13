@@ -22,7 +22,7 @@ const Projects = () => {
                     <p className="project-desc">Viberant is a collaboration project between Designers and Developers to allow users to post events they would like to do in their area, and join events you are interested in.</p>
                     <a href="https://admiring-spence-c2dab0.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-links">Live Site</a>
                     <br />
-                    <a href="https://github.com/Consecratio/mern-auth-client" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
+                    <a href="https://github.com/Consecratio/Viberant-client" target="_blank" rel="noopener noreferrer" className="project-links">Github</a>
                 </Col>
             </Row>
 
