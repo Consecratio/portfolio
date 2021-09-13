@@ -12,4 +12,4 @@ Link: [https://jorgecasique.com](https://jorgecasique.com)
 
 ## Explanation
 
-Single page portfolio site to display projects and contact information.
+Single page portfolio site to display projects and contact information. Utilizing React, React-Bootstrap, and CSS to style pages. Deployed on AWS.
